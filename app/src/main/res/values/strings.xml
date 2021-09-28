@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">LotusApp</string>
+    <string name="logo">Logo</string>
+    <string name="textSlogan">Наслаждайся отборочными.\nБудь внимателен.\nДелай хорошо.</string>
+    <string name="textHello">ПРИВЕТ</string>
+    <string name="buttonConnect">Войти в аккаунт</string>
+    <string name="buttonConnect1">Sign In</string>
 </resources>
