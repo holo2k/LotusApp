@@ -5,4 +5,9 @@
     <string name="textHello">ПРИВЕТ</string>
     <string name="buttonConnect">Войти в аккаунт</string>
     <string name="buttonConnect1">Sign In</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome_back_text">С возвращением, Эмиль!</string>
 </resources>

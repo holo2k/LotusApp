@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LotusApp">
         <activity
+            android:name=".MenuActivity"
+            android:exported="true"
+            android:label="@string/title_activity_menu" />
+        <activity
             android:name=".SignInActivity"
             android:exported="true" />
         <activity
@@ -23,7 +27,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
