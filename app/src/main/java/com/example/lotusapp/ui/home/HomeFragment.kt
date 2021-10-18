@@ -12,7 +12,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lotusapp.R
 import com.example.lotusapp.databinding.FragmentHomeBinding
 import com.example.lotusapp.recadapters.FeelRecycler
+import com.example.lotusapp.recadapters.StateRecycler
 import com.example.lotusapp.recadapters.feel
+import com.example.lotusapp.recadapters.state
 
 class HomeFragment : Fragment() {
 
@@ -29,6 +31,8 @@ class HomeFragment : Fragment() {
 
         val feel_recycler :RecyclerView=root.findViewById(R.id.feel_rec)
         feel_recycler.adapter=FeelRecycler(requireContext(), feel.MyFeel().list)
+        val state_recycler: RecyclerView = root.findViewById(R.id.state_rec)
+        state_recycler.adapter=StateRecycler(requireContext(), state.MyState().list)
     }
 
 
